@@ -1,0 +1,10 @@
+2026-09-22T06:15:29.981Z Error: Unable to read the credential file specified by the GOOGLE_APPLICATION_CREDENTIALS environment variable: The file at C:\path\to\service-account.json does not exist, or it is not a file. ENOENT: no such file or directory, lstat 'C:\path'
+    at Object.realpathSync (node:fs:2788:29)
+    at GoogleAuth._getApplicationCredentialsFromFilePath (C:\Users\neer1\Desktop\Google Hackathon\.next\dev\server\chunks\1hni_google-auth-library_1e8z5s3._.js:3118:27)
+    at GoogleAuth._tryGetApplicationCredentialsFromEnvironmentVariable (C:\Users\neer1\Desktop\Google Hackathon\.next\dev\server\chunks\1hni_google-auth-library_1e8z5s3._.js:3058:31)
+    at GoogleAuth.getApplicationDefaultAsync (C:\Users\neer1\Desktop\Google Hackathon\.next\dev\server\chunks\1hni_google-auth-library_1e8z5s3._.js:2998:33)
+    at #determineClient (C:\Users\neer1\Desktop\Google Hackathon\.next\dev\server\chunks\1hni_google-auth-library_1e8z5s3._.js:3489:47)
+    at GoogleAuth.getClient (C:\Users\neer1\Desktop\Google Hackathon\.next\dev\server\chunks\1hni_google-auth-library_1e8z5s3._.js:3456:83)
+    at GrpcClient._getCredentials (C:\Users\neer1\Desktop\Google Hackathon\.next\dev\server\chunks\node_modules_google-gax_build_src_1qxziwa._.js:3008:40)
+    at GrpcClient.createStub (C:\Users\neer1\Desktop\Google Hackathon\.next\dev\server\chunks\node_modules_google-gax_build_src_1qxziwa._.js:3187:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
